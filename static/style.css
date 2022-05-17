@@ -1,0 +1,36 @@
+body {
+    background: #F8B195;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #6194E4;
+    float: left;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #1C64D4;
+}
+
+.my_info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 80%;
+    background-color: #9cc2ff;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+
+
