@@ -1,38 +1,61 @@
+embed {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 93%;
+}
+
 .bg-color {
-    background: #fabda5;
+    background: #8EE4AF;
 }
 
 ul.main-menu li a {
     color: white;
     font-weight: bold;
-    text-shadow: 5px 5px 5px #1C64D4;
-    background-color: #9cc2ff;
+    background-color: #379683;
+    border-radius: 10px;
 }
 
 li.main-drop-menu ul{
     color: white;
-    background-color: #85b4ff;
+    background-color: #379683;
 }
 
 .my_nav {
-    background-color: #9cc2ff;
+    background-color: #379683;
 }
 
 .my_nav a:hover {
-    background-color: #1C64D4;
+    background-color: #5CDB95;
     border-radius: 10px;
 }
 
 .my_info {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     width: 80%;
-    background-color: #9cc2ff;
+    background-color: #EDF5E1;
     border-radius: 20px;
     margin-top: 50px;
+    color: #05386B;
 
 }
 
+.form-fields{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
 
+.field-bg{
+
+}
+
+.pics {
+    border-radius: 10px;
+    border: 5px #379683 solid;
+    margin: 10px;
+}
