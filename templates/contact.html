@@ -1,5 +1,28 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div class="my_info">
+    <h3>Contact Me</h3>
+    <h4>I hope you got to know me a little and that ou enjoyed looking through my website.</h4>
+    <h4>If you would like to reach out to me feel free to leave me a message :)</h4>
+    <form>
+        <div class="form-fields input-group">
+          <span class="input-group-text">First and last name</span>
+          <input type="text" aria-label="First name" class="form-control" name="firstname">
+          <input type="text" aria-label="Last name" class="form-control" name="lastname">
+        </div>
+        <div class="form-fields form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-fields form-floating">
+          <textarea class="form-control" placeholder="Write your subject here" id="floatingTextarea" name="subject"></textarea>
+          <label for="floatingTextarea">Subject</label>
+        </div>
+        <div class="form-fields form-floating">
+          <textarea class="form-control" placeholder="Leave a message :)" id="floatingTextarea2" style="height: 100px" name="message"></textarea>
+          <label for="floatingTextarea2">Message</label>
+        </div>
+    </form>
+</div>
 {% endblock %}
