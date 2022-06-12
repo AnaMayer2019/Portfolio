@@ -1,9 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form method="post">
-    <label for="inputPassword5" class="form-fields form-label">Password</label>
-    <input type="password" id="inputPassword5" name="password" class="form-control form-fields" aria-describedby="passwordHelpBlock">
-    <button type="submit" class="btn btn-success">Submit</button>
-</form>
+<div class="container">
+    <div class="row justify-content-md-center">
+        <form class="mb-3 col-md-5" method="post" style="padding-left: 80px; margin-top: 30px; border-radius: 10px; border: 5px #379683 solid;">
+            <label for="inputPassword5" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" id="inputPassword5" name="password" class="form-control" aria-describedby="passwordHelpBlock">
+            </div>
+
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3" style="margin-top: 15px;">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
 {% endblock %}
