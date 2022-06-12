@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="form-fields">Messages</h2>
+
+<table class="table form-fields" style="color:white; background-color:#379683;">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Subject</th>
+            <th scope="col" colspan="2">Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in messages %}
+            <tr>
+                <th scope="row">{{row.id}}</th>
+                <td>{{row.firstname}}</td>
+                <td>{{row.lastname}}</td>
+                <td>{{row.email}}</td>
+                <td>{{row.subject}}</td>
+                <td colspan="2">{{row.message}}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
